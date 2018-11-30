@@ -2,7 +2,8 @@
 #
 # Script Created by J.T. Buice | kainosbp.com
 #
-# This script assumes you are running it on an API node with port 8888. If not, edit line 16.
+# This script assumes you are running it on an API node with port 8888. If not, edit line 17.
+# It also assumes you have jq installed. It is a standard package on any default Ubuntu install.
 
 echo "Enter votebpout proposal name, 12 char or less followed by [Enter]:"
 read proposal
