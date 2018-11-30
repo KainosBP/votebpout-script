@@ -13,7 +13,6 @@ read hours
 echo "Enter the account of the signing BP followed by [Enter]:"
 read signingbp
 
-
 echo curl -X POST http://localhost:8888/v1/chain/get_account -H \'Content-Type: application/json\' -d \'{"\""account_name"\"":"\""eosio.prods"\""}\' \| jq [\'.permissions[0].required_auth.accounts[].permission]\' | bash - > bps.json
 
 ./teclos.sh multisig propose $proposal bps.json '[{"actor": "eosio.prods", "permission": "active"}]' eosio votebpout '{"bp" : '\"$kickbp\"',"penalty_hours":'\"$hours\"'}' -p $signingbp@active
