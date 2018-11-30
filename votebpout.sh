@@ -1,7 +1,8 @@
 #!/bin/bash
 #
-# Scrip Created by J.T. Buice | kainosbp.com
+# Script Created by J.T. Buice | kainosbp.com
 #
+# This script assumes you are running it on an API node with port 8888. If not, edit line 16.
 
 echo "Enter votebpout proposal name, 12 char or less followed by [Enter]:"
 read proposal
