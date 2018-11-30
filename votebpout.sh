@@ -1,4 +1,7 @@
 #!/bin/bash
+#
+# Scrip Created by J.T. Buice | kainosbp.com
+#
 
 echo "Enter votebpout proposal name, 12 char or less followed by [Enter]:"
 read proposal
