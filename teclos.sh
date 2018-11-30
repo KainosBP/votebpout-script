@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Scrip Created by J.T. Buice | kainosbp.com
+# Script Created by J.T. Buice | kainosbp.com
 #
 
 PATH="/telos/stage3.0/build/programs"
