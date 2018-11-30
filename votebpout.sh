@@ -9,7 +9,7 @@ echo "Enter votebpout proposal name, 12 char or less followed by [Enter]:"
 read proposal
 echo "Enter BP to Kick followed by [Enter]:"
 read kickbp
-echo "Enter the number of hours to kick for followed by [Enter]:"
+echo "Enter the number of hours to kick followed by [Enter]:"
 read hours
 echo "Enter the account of the signing BP followed by [Enter]:"
 read signingbp
