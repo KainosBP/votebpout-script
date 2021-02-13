@@ -4,6 +4,7 @@
 #
 # This script assumes you are running it on an API node with port 8888. If not, edit line 17.
 # It also assumes you have jq installed. It is a standard package on any default Ubuntu install.
+# sudo apt install jq
 
 echo "Enter votebpout proposal name, 12 char or less followed by [Enter]:"
 read proposal
